@@ -1,0 +1,438 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.page1{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar{
+    height: 15%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 5%;
+    list-style: none;
+}
+
+.nav button{
+    height: 25%;
+    width: 10%;
+    margin-top: 2%;
+    background-color: rgb(255, 45, 80);
+    color: white;
+    border: none;
+}
+
+.nav li{
+    margin: 2%;
+    color: white;
+}
+
+.main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    height: 95%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 70%; */
+    margin-left: 10%;
+}
+
+.right{
+    height: 95%;
+    width: 100%;
+    background-image: url(/images/Figma\ basics\ \(3\).png);
+    background-size: cover;
+    margin-right: 10%;
+}
+
+.left h2{
+    font-size: 55px;
+    color: white;
+}
+
+.left p{
+    font-size: 17px;
+    color: white;
+}
+
+.left button{
+    height: 10%;
+    width: 50%;
+    margin-left: 15%;
+    background-color: rgb(255, 52, 85);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    /* font-size: 20px; */
+}
+
+
+
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 29, 40);
+}
+
+.juu{
+    height: 35%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.juu h5{
+    color: white;
+}
+
+.juu h2{
+    color: rgb(255, 12, 53);
+    font-size: 35px;
+}
+
+.juu p{
+    color: white;
+}
+
+.chini{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.chini1, .chini2, .chini3, .chini4{
+    height: 85%;
+    width: 20%;
+    background-color: rgb(7, 12, 17);
+    border-radius: 2%;
+}
+
+.chini1 h5, .chini2 h5, .chini3 h5, .chini4 h5{
+    font-size: 20px;
+    color: white;
+}
+
+.chini1 p, .chini2 p, .chini3 p, .chini4 p{
+    color: gray;
+}
+
+.chini1 button{
+    background-color: rgb(255, 180, 4);
+    border: none;
+    border-radius: 7%;
+    height: 8%;
+    width: 35%;
+}
+
+.chini2 button{
+    background-color: rgb(20, 194, 252);
+    border: none;
+    border-radius: 7%;
+    height: 8%;
+    width: 35%;
+}
+
+.chini3 button{
+    background-color: blue;
+    border: none;
+    border-radius: 7%;
+    height: 8%;
+    width: 35%;
+}
+
+.chini4 button{
+    background-color: rgb(249, 57, 57);
+    border: none;
+    border-radius: 7%;
+    height: 8%;
+    width: 35%;
+}
+
+.page3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(18, 29, 40);
+    display: flex;
+}
+
+.center{
+    height: 100%;
+    width: 65%;
+    /* background-color: aqua; */
+}
+
+.centerImg1{
+    left: 4%;
+    position: absolute;
+    
+}
+
+.centerImg2{
+    left: 0%;
+    position: absolute;
+    height: 26%;
+    margin-left: 5%;
+}
+
+.centerImg3{
+    /* bottom: 10%; */
+    position: absolute;
+    right: 40%;
+    margin-top: 20%;
+    width: 15%;
+}
+
+.Imagefour{
+    border-radius: 10px;
+    height: 50%;
+    /* width: 55%; */
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.center1{
+    height: 40%;
+    width: 22%;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 45%;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 30px;
+}
+
+.center1 img{
+    margin-top: 9%;
+    /* height: 20%; */
+    align-items: center;
+}
+
+.center2{
+    height: 15%;
+    width: 20%;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    /* bottom: 15%; */
+    display: flex;
+    justify-content: center;
+    /* left: 0; */
+    position: absolute;
+    margin-top: 25%;
+    flex-direction: column;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 40px;
+    margin-left: 6%;
+}
+
+.center1 h5{
+    font-size: 20px;
+}
+
+.center1 p{
+    color: grey;
+}
+
+.center2 h2{
+    color: rgb(249, 30, 67);
+}
+
+.center2 p{
+    font-size: 15px;
+    text-align: start;
+}
+
+.aside{
+    height: 100%;
+    width: 35%;
+    /* background-color: beige; */
+}
+
+.aside h2{
+    font-size: 35px;
+    color: white;
+}
+
+.aside h5{
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+}
+
+.aside p{
+    color: rgb(194, 194, 194);
+}
+
+.page4{
+    height: 130vh;
+    width: 100%;
+    background-color: rgb(7, 12, 17);
+}
+
+.up{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.up1, .up2, .up3, .up4{
+    height: 45%;
+    width: 18%;
+    background-color: rgb(18, 29, 40) ;
+    text-align: center;
+    border-radius: 9%;
+}
+
+.up1 h1{
+    color: rgb(31, 172, 254);
+}
+
+.up2 h1{
+    color: rgb(255, 0, 43);
+}
+
+.up3 h1{
+    color: blueviolet;
+}
+
+.up4 h1{
+    color: rgb(255, 170, 0);
+}
+
+.up1 h3, .up2 h3, .up3 h3, .up4 h3{
+    color: white;
+}
+
+.down{
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.downImg1{
+    position: absolute;
+    right: 10%;
+    margin-right: 5%;
+}
+
+.downImg2{
+    position: absolute;
+    right: 5%;
+    margin-top: 6%;
+    margin-right: 7%;
+}
+
+.downImg3{
+    left: 9%;
+    position: absolute;
+    margin-top: 33%;
+}
+
+
+
+.kati{
+    height: 55%;
+    width: 60%;
+    background-image: url(/images/adhiambo.b1ff1928bad3184ee8ae.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+
+
+.page5{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(18, 29, 40);
+}
+
+.kando{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.kando1 img{
+    height: 20%;
+    width: 60%;
+    margin-right: 80%;
+}
+
+.kando1, .kando2, .kando3, .kando4{
+    height: 85%;
+    width: 65%;
+    /* background-color: aqua; */
+    list-style: none;
+}
+
+.kando2 h3, .kando3 h3, .kando4 h3{
+    color: white;
+    font-size: 25px;
+} 
+
+.kando1 p, .kando4 p{
+    color: rgb(171, 171, 171);
+}
+
+.kando2 li, .kando3 li{
+    color: rgb(171, 171, 171);
+}
+
+.kando4 button{
+    height: 15%;
+    width: 50%;
+}
+
+.Imageone{
+    height: 25%;
+    width: 15%;
+}
+
+.small img{
+    height: 15%;
+    width: 10%;
+    margin-top: 10%;
+}
